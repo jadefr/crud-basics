@@ -93,15 +93,15 @@ O objeto modelado é um contato, cujos atributos são: id, name, email, phone. O
       
 # Conexão com o Banco de Dados
 
-					## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
-					spring.datasource.url=jdbc:mysql://localhost:3306/crud?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
-					spring.datasource.username=
-					spring.datasource.password=
+	## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+	spring.datasource.url=jdbc:mysql://localhost:3306/crud?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+	spring.datasource.username=
+	spring.datasource.password=
 
-					# Dialeto SQL melhorar o SQL gerado pelo Hibernate
-					spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
+	# Dialeto SQL melhorar o SQL gerado pelo Hibernate
+	spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
         
-          # Hibernate ddl auto (create, create-drop, validate, update)
-          spring.jpa.hibernate.ddl-auto=update 
+        # Hibernate ddl auto (create, create-drop, validate, update)
+        spring.jpa.hibernate.ddl-auto=update 
 
 
