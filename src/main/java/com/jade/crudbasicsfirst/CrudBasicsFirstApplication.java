@@ -21,7 +21,7 @@ public class CrudBasicsFirstApplication {
 
 
     /**
-     * opcional
+     * método para popular o banco com registros aleatórios
      *
      * remove-se todos os registros da base, e logo após, cria-se um stream de 1 até 11 (não inclusivo),
      * e para cada iteração, insere um registro de teste na base e imprime (toString da classe Contact).
