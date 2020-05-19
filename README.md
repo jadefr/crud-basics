@@ -49,7 +49,6 @@ Projeto baseado em https://www.oracle.com/technetwork/pt/articles/dsl/crud-rest-
           
           exemplo de objeto:
           {
-            "id": "11",
             "name": "Java",
             "email": "java@email.com",
             "phone": "(111) 111-1111"
