@@ -101,7 +101,7 @@ O arquivo application.properties foi configurado de acordo com o seguinte:
 	spring.datasource.username=
 	spring.datasource.password=
 
-	# Dialeto SQL melhorar o SQL gerado pelo Hibernate
+	# Dialeto SQL para melhorar o SQL gerado pelo Hibernate
 	spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
       
     # Hibernate ddl auto (create, create-drop, validate, update)
