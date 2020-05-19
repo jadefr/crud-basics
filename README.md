@@ -95,6 +95,8 @@ Projeto baseado em https://www.oracle.com/technetwork/pt/articles/dsl/crud-rest-
       
 # Conexão com o Banco de Dados
 
+O arquivo application.properties foi configurado de acordo com o seguinte: 
+
 	## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
 	spring.datasource.url=jdbc:mysql://localhost:3306/crud?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
 	spring.datasource.username=
