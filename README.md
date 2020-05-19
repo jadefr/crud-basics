@@ -107,4 +107,26 @@ O arquivo application.properties foi configurado de acordo com o seguinte:
     # Hibernate ddl auto (create, create-drop, validate, update)
     spring.jpa.hibernate.ddl-auto=update 
 
+Alternativamente, caso se queira criar a tabela manualmente no DataGrip, omite-se a última linha do código acima.
+
+Neste caso, o código de criação da tabela em SQL é o seguinte:
+
+
+
+	CREATE DATABASE crud;
+
+	CREATE TABLE crud.contact (
+		id INT NOT NULL,
+		name VARCHAR(255) NULL,
+		email VARCHAR(255) NULL,
+		phone VARCHAR(45) NULL,
+		PRIMARY KEY (id)
+	);
+
+	ALTER TABLE crud.contact
+	CHANGE COLUMN id id INT(11) NOT NULL AUTO_INCREMENT,
+		ADD UNIQUE INDEX id_UNIQUE (id ASC);
+
+
+	
 
