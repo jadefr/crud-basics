@@ -18,15 +18,40 @@ O objeto modelado é um contato, cujos atributos são: id, name, email, phone. O
 
 # Operações
 
-   * Listar todos os contatos - @GetMapping(“/contatos)
+   * Listar todos os contatos 
+              
+            @GetMapping(“/contatos)
     
-   * Obter um contato específico pelo ID - @GetMapping(“/contatos/{id}”)
+   * Obter um contato específico pelo ID
+   
+          @GetMapping(“/contatos/{id}”)
     
-   * Remover um contato pelo ID - @DeleteMapping(“/contatos/{id}”)
+   * Remover um contato pelo ID 
+          
+          @DeleteMapping(“/contatos/{id}”)
     
-   * Criar um novo contato - @PostMapping(“/contatos)
+   * Criar um novo contato 
+      
+          @PostMapping(“/contatos)
+          
+          exemplo de objeto:
+          {
+            "name": "Java",
+            "email": "java@email.com",
+            "phone": "(111) 111-1111"
+          }
     
-   * Atualizar detalhes de um contato - @PutMapping(“/contatos/{id}”)
+   * Atualizar detalhes de um contato 
+   
+          @PutMapping(“/contatos/{id}”)
+          
+          exemplo de objeto:
+          {
+            "id": "11",
+            "name": "Java",
+            "email": "java@email.com",
+            "phone": "(111) 111-1111"
+          }
 
 # Estrutura Básica do Projeto
 
@@ -67,3 +92,16 @@ O objeto modelado é um contato, cujos atributos são: id, name, email, phone. O
       * não foi necessário criar nenhum método na classe, pois não foi utilizada a camada de serviços
       
 # Conexão com o Banco de Dados
+
+					## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+					spring.datasource.url=jdbc:mysql://localhost:3306/crud?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+					spring.datasource.username=
+					spring.datasource.password=
+
+					# Dialeto SQL melhorar o SQL gerado pelo Hibernate
+					spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
+        
+          # Hibernate ddl auto (create, create-drop, validate, update)
+          spring.jpa.hibernate.ddl-auto=update 
+
+
