@@ -5,6 +5,8 @@ Foi desenvolvida uma API REST, seguindo o framework Spring Boot 2, para realizar
 
 O objeto modelado é um contato, cujos atributos são: id, name, email, phone. O banco, portanto, armazena uma lista de contatos.
 
+Projeto baseado em https://www.oracle.com/technetwork/pt/articles/dsl/crud-rest-sb2-hibernate-5302424-ptb.html
+
 # Tech Stack
 * Java 8
 * SQL
