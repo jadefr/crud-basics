@@ -100,8 +100,8 @@ O objeto modelado é um contato, cujos atributos são: id, name, email, phone. O
 
 	# Dialeto SQL melhorar o SQL gerado pelo Hibernate
 	spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
-        
-        # Hibernate ddl auto (create, create-drop, validate, update)
-        spring.jpa.hibernate.ddl-auto=update 
+      
+    # Hibernate ddl auto (create, create-drop, validate, update)
+    spring.jpa.hibernate.ddl-auto=update 
 
 
