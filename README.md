@@ -1,7 +1,7 @@
 # crud-basics
 Estudo sobre Java Web
 
-Foi desenvolvida uma API REST, seguindo o framework Spring Boot 2, para realizar as operações CRUD em um banco de dados MySQL.
+Foi desenvolvida uma API REST, seguindo o framework Spring Boot 2.3.0, para realizar as operações CRUD em um banco de dados MySQL.
 
 O objeto modelado é um contato, cujos atributos são: id, name, email, phone. O banco, portanto, armazena uma lista de contatos.
 
@@ -22,7 +22,7 @@ Projeto baseado em https://www.oracle.com/technetwork/pt/articles/dsl/crud-rest-
 
    * Listar todos os contatos 
               
-            @GetMapping(“/contatos)
+            @GetMapping(“/contatos”)
     
    * Obter um contato específico pelo ID
    
@@ -34,7 +34,7 @@ Projeto baseado em https://www.oracle.com/technetwork/pt/articles/dsl/crud-rest-
     
    * Criar um novo contato 
       
-          @PostMapping(“/contatos)
+          @PostMapping(“/contatos”)
           
           exemplo de objeto:
           {
