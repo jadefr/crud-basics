@@ -1,4 +1,4 @@
-# crud-basics-first
+# crud-basics
 Estudo sobre Java Web
 
 Foi desenvolvida uma API REST, seguindo o framework Spring Boot 2, para realizar as operações CRUD em um banco de dados MySQL.
