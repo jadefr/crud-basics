@@ -1,6 +1,6 @@
 # crud-basics
 
-Foi desenvolvida uma API REST, seguindo o framework Spring Boot 2.3.0, para realizar as operações CRUD em um banco de dados MySQL.
+Foi desenvolvida uma API REST, seguindo o framework __Spring Boot 2.3.0__, para realizar as operações CRUD em um banco de dados MySQL.
 
 O objeto modelado é um contato, cujos atributos são: id, name, email, phone. O banco, portanto, armazena uma lista de contatos.
 
