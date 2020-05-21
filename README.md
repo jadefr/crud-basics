@@ -53,7 +53,7 @@ Projeto baseado em https://www.oracle.com/technetwork/pt/articles/dsl/crud-rest-
             "phone": "(111) 111-1111"
           }
 
-# Estrutura Básica do Projeto
+# Estrutura Base do Projeto
 
       src
         ├ java
